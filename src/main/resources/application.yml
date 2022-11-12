@@ -1,0 +1,21 @@
+---
+server:
+    port: 8070
+spring:
+    application:
+        name: configserver
+    cloud:
+        config:
+            server:
+                git:
+                  uri: https://github.com/ansoumanana/config.git
+                  clone-on-start: true
+                  default-label: master
+
+
+                #native:
+                    #search-locations: classpath:/config
+                   # search-locations: classpath:/config
+    profiles:
+        #active: native
+        active: git
