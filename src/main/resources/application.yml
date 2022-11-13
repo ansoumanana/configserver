@@ -19,3 +19,6 @@ spring:
     profiles:
         #active: native
         active: git
+encrypt:
+  key: APODNU3093r2rbjzxcn09u213asdhy08WRFH
+
