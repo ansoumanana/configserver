@@ -29,15 +29,15 @@ spring:
       locator:
         discovery:
           enabled: true
-      sender:
-        type: rabbit
-      rabbitmq:
-        queue: zipkin
-    rabbitmq:
-      host: localhost
-      port: 5672
-      username: guest
-      password: guest
+      #sender:
+        #type: rabbit
+      #rabbitmq:
+        #queue: zipkin
+    #rabbitmq:
+     # host: localhost
+     # port: 5672
+     # username: guest
+      #password: guest
 
 encrypt:
   key: APODNU3093r2rbjzxcn09u213asdhy08WRFH
